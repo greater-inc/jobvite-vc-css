@@ -1,0 +1,144 @@
+/* ─── Google Fonts ───────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* ─── Base Link ─────────────────────────────────────────────── */
+a {
+  color: #1C3C83;
+}
+
+/* ─── Job Listing Links ──────────────────────────────────────── */
+.jv-desktop .jv-current-openings a,
+.jv-mobile .jv-current-openings a {
+  color: #1C3C83 !important;
+  font-weight: 400;
+  text-decoration: none !important;
+  transition: 0.3s !important;
+}
+
+/* ─── Wrapper ────────────────────────────────────────────────── */
+.jv-wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  background-color: transparent !important;
+}
+
+/* ─── Headings ───────────────────────────────────────────────── */
+.jv-page-body h2,
+h2.jv-header {
+  color: #1C3C83;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 4.96rem;
+  margin-bottom: 1.4rem;
+}
+
+h3.h2 {
+  color: #1C3C83;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+/* ─── Job Location ───────────────────────────────────────────── */
+.jv-job-list .jv-job-list-location {
+  padding-right: 1.5rem;
+  color: #1A1F2B;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* ─── Job Detail Description ─────────────────────────────────── */
+.jv-job-detail-description h1,
+.jv-job-detail-description h2 {
+  color: #1C3C83 !important;
+  font-family: 'Poppins', Arial, sans-serif !important;
+  font-size: 2.5rem !important;
+  font-weight: 600 !important;
+  line-height: 3.1rem !important;
+  margin: 0.75rem 0 0.25rem !important;
+}
+
+.jv-job-detail-description h3 {
+  display: block !important;
+  color: #1C3C83 !important;
+  font-family: 'Poppins', Arial, sans-serif !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  line-height: 2.25rem !important;
+  margin: 0.75rem 0 0.25rem !important;
+}
+
+.jv-job-detail-description p,
+.jv-job-detail-description p span,
+.jv-job-detail-description ul li span {
+  color: #1A1F2B !important;
+  font-family: 'Poppins', Arial, sans-serif !important;
+  font-size: 0.875rem !important;
+  line-height: normal !important;
+  margin: 0 0 0.375rem !important;
+}
+
+/* ─── Primary Button ─────────────────────────────────────────── */
+.jv-button-primary,
+.jv-job-detail-bottom-actions .jv-button-apply {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0.5rem 1rem !important;
+  background-color: #A6145E !important;
+  border: none !important;
+  border-radius: 0.25rem !important;
+  color: #fff !important;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: background-color 0.2s;
+}
+
+.jv-button-primary:hover,
+.jv-job-detail-bottom-actions .jv-button-apply:hover {
+  background-color: #8B1050 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+/* ─── Apply Later Button ─────────────────────────────────────── */
+.jv-job-detail-bottom-actions .jv-button-apply-later {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0.5rem 1rem !important;
+  background-color: transparent !important;
+  border: 0.125rem solid #A6145E !important;
+  border-radius: 0.25rem !important;
+  color: #A6145E !important;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.jv-job-detail-bottom-actions .jv-button-apply-later:hover {
+  background-color: #A6145E !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+/* ─── Form Labels ────────────────────────────────────────────── */
+.jv-form .jv-form-field-label,
+.jv-form .jv-form-field-legend,
+fieldset.jv-input-group legend.jv-form-field-legend {
+  color: #1A1F2B !important;
+  font-family: 'Poppins', Arial, sans-serif !important;
+  font-size: 0.875rem !important;
+}
