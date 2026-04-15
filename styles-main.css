@@ -6,6 +6,14 @@ a {
   color: #1C3C83;
 }
 
+/* ─── Iframe Container Chain ─────────────────────────────────── */
+.iframe-force-center,
+.jv-careersite,
+#jv_careersite_iframe_id {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
 /* ─── Job Listing Links ──────────────────────────────────────── */
 .jv-desktop .jv-current-openings a,
 .jv-mobile .jv-current-openings a {
