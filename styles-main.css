@@ -32,17 +32,6 @@ a {
   background-color: transparent !important;
 }
 
-body.jv-desktop.jv-page-jobs {
-  background-color: transparent !important;
-}
-body.jv-desktop.jv-page-jobs,
-body.jv-desktop.jv-page-jobs *,
-body.jv-desktop.jv-page-job,
-body.jv-desktop.jv-page-job * {
-  background-color: transparent !important;
-  font-family: 'Poppins', Arial, sans-serif !important;
-}
-
 body.jv-desktop {
   background-color: transparent !important;
 }
