@@ -31,6 +31,10 @@ a {
   background-color: transparent !important;
 }
 
+body.jv-desktop.jv-page-jobs {
+  background-color: transparent !important;
+}
+
 /* ─── Headings ───────────────────────────────────────────────── */
 .jv-page-body h2,
 h2.jv-header {
