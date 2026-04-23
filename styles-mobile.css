@@ -1,28 +1,6 @@
 /* ─── Google Fonts ───────────────────────────────────────────── */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-/* ─── Global Font Override ───────────────────────────────────── */
-.jv-mobile p,
-.jv-mobile h1,
-.jv-mobile h2,
-.jv-mobile h3,
-.jv-mobile h4,
-.jv-mobile h5,
-.jv-mobile h6,
-.jv-mobile span:not([class*="icon"]):not([class*="jv-icon"]),
-.jv-mobile div,
-.jv-mobile li,
-.jv-mobile a,
-.jv-mobile label,
-.jv-mobile input,
-.jv-mobile textarea,
-.jv-mobile select,
-.jv-mobile button,
-.jv-mobile td,
-.jv-mobile th {
-  font-family: 'Poppins', Arial, sans-serif !important;
-}
-
 
 /* ─── Page Header ────────────────────────────────────────────── */
 .jv-mobile .jv-wrapper {
