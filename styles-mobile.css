@@ -9,7 +9,7 @@
 
 .jv-mobile .jv-page-header {
   background-color: #1C3C83;
-  padding: 2.4rem 0;
+  padding: 1.2rem 0;
 }
 
 .jv-mobile .jv-logo {
@@ -34,12 +34,13 @@
 .jv-nav-open-link {
   background-color: #A6145E !important;
   border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem !important;
 }
 
 .jv-nav-open-link:before {
-  font-size: 1.8rem !important;
+  font-size: 1.4rem !important;
   color: #fff;
-  margin-right: 1.15rem !important;
+  margin-right: 0.5rem !important;
 }
 
 
