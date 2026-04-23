@@ -37,7 +37,7 @@
 }
 
 .jv-nav-open-link:before {
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
   color: #fff;
   margin-right: 1.15rem !important;
 }
@@ -55,7 +55,7 @@
 .jv-mobile .jv-nav a.jv-nav-link {
   color: #fff !important;
   font-weight: 600 !important;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-family: 'Poppins', Arial, sans-serif;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .jv-mobile .jv-search-form .jv-search-field {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 
@@ -82,7 +82,7 @@
 
 .jv-mobile a.jv-tab {
   color: #fff !important;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-family: 'Poppins', Arial, sans-serif;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .jv-mobile .jv-job-categories .jv-job-category-meta {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   font-family: 'Poppins', Arial, sans-serif;
 }
@@ -132,14 +132,14 @@
 
 .jv-job-category-label {
   color: #1A1F2B !important;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 700;
   font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-job-category-link .jv-list-icon {
   color: #1C3C83 !important;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .jv-active-category .jv-job-category-link:before {
@@ -175,19 +175,19 @@
 }
 
 .jv-job-item .jv-list-label {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-top: 1.5rem;
 }
 
 .jv-job-item .jv-meta {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-bottom: 1.5rem !important;
 }
 
 .jv-mobile .icon-mobile-next:before {
   color: #1A1F2B;
   margin-right: 1.25rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .jv-mobile .jv-job-list .jv-list-link {
@@ -204,13 +204,13 @@
 
 /* ─── Job Description ────────────────────────────────────────── */
 .jv-mobile h2.jv-header {
-  font-size: 2.6rem !important;
+  font-size: 2.2rem !important;
   color: #1C3C83;
   font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile .jv-header .jv-job-detail-location {
-  font-size: 1.4rem !important;
+  font-size: 1rem !important;
 }
 
 .jv-mobile .icon-pin:before {
@@ -218,7 +218,7 @@
 }
 
 .jv-mobile .jv-sub-header {
-  font-size: 1.6rem !important;
+  font-size: 1rem !important;
   margin-bottom: 3rem;
   color: #1A1F2B;
   font-weight: 500;
@@ -229,16 +229,16 @@
   display: block;
   font-weight: 600;
   color: #1C3C83;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile .jv-job-detail-description p strong span {
-  font-size: 1.4rem !important;
+  font-size: 1rem !important;
 }
 
 .jv-mobile .jv-current-openings a {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .jv-mobile .jv-share-widget {
@@ -246,7 +246,7 @@
 }
 
 .jv-mobile .jv-recommended-jobs h3 {
-  font-size: 1.4rem !important;
+  font-size: 1rem !important;
   margin-bottom: 2rem;
 }
 
@@ -263,7 +263,7 @@
 
 .jv-job-detail-bottom-actions .jv-button-apply {
   padding: 1rem 2.5rem !important;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-right: 3.6rem;
 }
@@ -282,7 +282,7 @@
 }
 
 .jv-mobile .jv-job-alert-pane option {
-  font-size: 1.3rem !important;
+  font-size: 1rem !important;
   color: #1A1F2B;
   font-family: 'Poppins', Arial, sans-serif;
 }
@@ -292,7 +292,7 @@
 }
 
 .jv-mobile .jv-job-alert-pane optgroup[label] {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: 'Poppins', Arial, sans-serif;
 }
 
@@ -309,13 +309,13 @@
 
 .jv-mobile .jv-form .jv-form-field-label {
   color: #1A1F2B !important;
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
   font-family: 'Poppins', Arial, sans-serif !important;
 }
 
 .jv-mobile fieldset.jv-input-group legend.jv-form-field-legend {
   color: #1A1F2B !important;
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
   font-family: 'Poppins', Arial, sans-serif !important;
 }
 
@@ -336,7 +336,7 @@
 }
 
 .jv-mobile h3.jv-step-header {
-  font-size: 1.5rem !important;
+  font-size: 1rem !important;
 }
 
 .jv-form input::placeholder,
@@ -351,19 +351,19 @@
 .jv-form textarea,
 .jv-form .jv-form-field-select .jv-form-field-appearance label {
   color: #1A1F2B !important;
-  font-size: 1.2rem !important;
+  font-size: 1rem !important;
   font-family: 'Poppins', Arial, sans-serif !important;
 }
 
 
 /* ─── Confirmation Page ──────────────────────────────────────── */
 .jv-mobile .jv-page-applyconfirm h2.jv-header {
-  font-size: 1.4rem !important;
+  font-size: 1rem !important;
 }
 
 .jv-mobile .jv-page-body .jv-wrapper > p {
   margin-top: 2rem !important;
-  font-size: 1.4rem !important;
+  font-size: 1rem !important;
 }
 
 .jv-mobile .jv-page {
@@ -375,7 +375,7 @@
 /* ─── Footer ─────────────────────────────────────────────────── */
 .jv-footer {
   font-family: 'Poppins', Arial, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #1A1F2B;
   padding: 2rem 1rem;
   border-top: 0.5px solid #dde2f0;
@@ -413,14 +413,14 @@
 .jv-select-group label {
   color: #1C3C83;
   font-family: 'Poppins', Arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .jv-select-group select {
   color: #1C3C83;
   font-family: 'Poppins', Arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: 1px solid #dde2f0;
   border-radius: 0.25rem;
   padding: 0.5rem 1rem;
@@ -438,6 +438,6 @@
 .note {
   color: #1C3C83;
   font-family: 'Poppins', Arial, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
