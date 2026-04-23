@@ -9,7 +9,7 @@
 
 .jv-mobile .jv-page-header {
   background-color: #1C3C83;
-  padding: 0.6rem 0;
+  padding: 0.3rem 0;
   display: flex;
   align-items: center;
   min-height: unset !important;
@@ -25,8 +25,9 @@
 
 .jv-mobile .jv-page-header h1 {
   background: url(https://www.vikingcloud.com/wp-content/uploads/VikingCloud-Logo-White.svg) no-repeat;
-  width: 18rem;
-  height: 2.8rem;
+  background-size: contain;
+  width: 14rem;
+  height: 2.2rem;
   top: 5px;
 }
 
@@ -37,16 +38,16 @@
 .jv-nav-open-link {
   background-color: #A6145E !important;
   border-radius: 0.25rem;
-  padding: 0.5rem 0.75rem !important;
+  padding: 0.35rem 0.6rem !important;
   align-self: center !important;
   height: auto !important;
   min-height: unset !important;
 }
 
 .jv-nav-open-link:before {
-  font-size: 1.4rem !important;
+  font-size: 1.1rem !important;
   color: #fff;
-  margin-right: 0.5rem !important;
+  margin-right: 0.4rem !important;
 }
 
 
