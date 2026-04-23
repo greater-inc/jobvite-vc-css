@@ -1,6 +1,13 @@
 /* ─── Google Fonts ───────────────────────────────────────────── */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+/* ─── Global Font Override ───────────────────────────────────── */
+.jv-mobile *,
+.jv-mobile *::before,
+.jv-mobile *::after {
+  font-family: 'Poppins', Arial, sans-serif !important;
+}
+
 
 /* ─── Page Header ────────────────────────────────────────────── */
 .jv-mobile .jv-wrapper {
