@@ -15,15 +15,6 @@ a {
   background: transparent !important;
 }
 
-/* ─── Job Listing Links ──────────────────────────────────────── */
-.jv-desktop .jv-current-openings a,
-.jv-mobile .jv-current-openings a {
-  color: #1C3C83 !important;
-  font-weight: 400;
-  text-decoration: none !important;
-  transition: 0.3s !important;
-}
-
 /* ─── Wrapper ────────────────────────────────────────────────── */
 .jv-wrapper {
   margin: 0 !important;
@@ -34,10 +25,46 @@ a {
 
 body.jv-desktop {
   background-color: transparent !important;
+  font-family: 'Poppins', Arial, sans-serif !important; /* ✅ safe replacement */
 }
 
-body.jv-desktop * {
+/* ─── Typography (targeted, safe) ───────────────────────────── */
+body.jv-desktop p,
+body.jv-desktop h1,
+body.jv-desktop h2,
+body.jv-desktop h3,
+body.jv-desktop h4,
+body.jv-desktop h5,
+body.jv-desktop h6,
+body.jv-desktop span,
+body.jv-desktop li,
+body.jv-desktop a,
+body.jv-desktop label {
   font-family: 'Poppins', Arial, sans-serif !important;
+}
+
+/* ─── Protect icons / SVGs ───────────────────────────────────── */
+[class*="icon"],
+[class*="Icon"],
+svg,
+i {
+  font-family: inherit !important;
+}
+
+/* ─── Image Reset (fix rendering issues) ─────────────────────── */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ─── Job Listing Links ──────────────────────────────────────── */
+.jv-desktop .jv-current-openings a,
+.jv-mobile .jv-current-openings a {
+  color: #1C3C83 !important;
+  font-weight: 400;
+  text-decoration: none !important;
+  transition: 0.3s !important;
 }
 
 /* ─── Headings ───────────────────────────────────────────────── */
@@ -62,7 +89,6 @@ h3.h2 {
 .jv-job-list .jv-job-list-location {
   padding-right: 1.5rem;
   color: #1A1F2B;
-  font-family: 'Poppins', Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   text-transform: uppercase;
@@ -72,7 +98,6 @@ h3.h2 {
 .jv-job-detail-description h1,
 .jv-job-detail-description h2 {
   color: #1C3C83 !important;
-  font-family: 'Poppins', Arial, sans-serif !important;
   font-size: 2.5rem !important;
   font-weight: 600 !important;
   line-height: 3.1rem !important;
@@ -82,7 +107,6 @@ h3.h2 {
 .jv-job-detail-description h3 {
   display: block !important;
   color: #1C3C83 !important;
-  font-family: 'Poppins', Arial, sans-serif !important;
   font-size: 1.5rem !important;
   font-weight: 600 !important;
   line-height: 2.25rem !important;
@@ -93,7 +117,6 @@ h3.h2 {
 .jv-job-detail-description p span,
 .jv-job-detail-description ul li span {
   color: #1A1F2B !important;
-  font-family: 'Poppins', Arial, sans-serif !important;
   font-size: 0.875rem !important;
   line-height: normal !important;
   margin: 0 0 0.375rem !important;
@@ -105,13 +128,11 @@ h3.h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   padding: 0.5rem 1rem !important;
   background-color: #A6145E !important;
   border: none !important;
   border-radius: 0.25rem !important;
   color: #fff !important;
-  font-family: 'Poppins', Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   text-decoration: none !important;
@@ -131,13 +152,11 @@ h3.h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   padding: 0.5rem 1rem !important;
   background-color: transparent !important;
   border: 0.125rem solid #A6145E !important;
   border-radius: 0.25rem !important;
   color: #A6145E !important;
-  font-family: 'Poppins', Arial, sans-serif;
   font-size: 0.875rem;
   font-weight: 400;
   text-decoration: none !important;
@@ -148,7 +167,6 @@ h3.h2 {
 .jv-job-detail-bottom-actions .jv-button-apply-later:hover {
   background-color: #A6145E !important;
   color: #fff !important;
-  text-decoration: none !important;
 }
 
 /* ─── Form Labels ────────────────────────────────────────────── */
@@ -156,6 +174,5 @@ h3.h2 {
 .jv-form .jv-form-field-legend,
 fieldset.jv-input-group legend.jv-form-field-legend {
   color: #1A1F2B !important;
-  font-family: 'Poppins', Arial, sans-serif !important;
   font-size: 0.875rem !important;
 }
