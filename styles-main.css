@@ -112,7 +112,7 @@ h3.h2 {
 .jv-job-detail-bottom-actions .jv-button-apply {
   display: inline-flex;
   width: auto;
-  height: 3.5rem;
+  min-width: 10rem;
   align-items: center;
   justify-content: center;
   padding: 0.5rem 1rem !important;
@@ -136,7 +136,9 @@ h3.h2 {
 
 /* ─── Apply Later Button ─────────────────────────────────────── */
 .jv-job-detail-bottom-actions .jv-button-apply-later {
-  display: flex;
+  display: inline-flex;
+  min-width: 10rem;
+  width: auto;
   align-items: center;
   justify-content: center;
   padding: 0.5rem 1rem !important;
