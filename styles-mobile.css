@@ -28,52 +28,18 @@
   visibility: visible !important;
 }
 
-/* ─── Page Header ────────────────────────────────────────────── */
+/* ─── Page Header: Minimal Only ─────────────────────────────── */
 .jv-mobile .jv-wrapper {
   padding: 0 1rem !important;
 }
 
 .jv-mobile .jv-page-header {
   background-color: #FFFFFF;
-  padding: 0.3rem 0;
+  padding: 0.75rem 1rem !important;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   min-height: unset !important;
-}
-
-.jv-mobile .jv-logo {
-  display: block !important;
-}
-
-.jv-mobile .jv-page-header h1 a {
-  display: none;
-}
-
-.jv-mobile .jv-page-header h1 {
-  background: url(https://www.vikingcloud.com/wp-content/uploads/VikingCloud-Logo-White.svg) no-repeat;
-  background-size: contain;
-  width: 14rem;
-  height: 2.2rem;
-  top: 5px;
-}
-
-.jv-mobile .jv-logo:after {
-  background: transparent !important;
-}
-
-.jv-nav-open-link {
-  background-color: #A6145E !important;
-  border-radius: 0.25rem;
-  padding: 0.35rem 0.6rem !important;
-  align-self: center !important;
-  height: auto !important;
-  min-height: unset !important;
-}
-
-.jv-nav-open-link:before {
-  font-size: 1.1rem !important;
-  color: #fff;
-  margin-right: 0.4rem !important;
 }
 
 /* ─── Navigation ─────────────────────────────────────────────── */
@@ -227,6 +193,12 @@
 }
 
 /* ─── Job Description ────────────────────────────────────────── */
+.jv-mobile h1,
+.jv-mobile h2.jv-header {
+  font-weight: 600 !important;
+  line-height: 1 !important;
+}
+
 .jv-mobile h2.jv-header {
   font-size: 2.2rem !important;
   color: #1C3C83;
@@ -275,24 +247,71 @@
   padding-top: 0 !important;
 }
 
-/* ─── Mobile Buttons ─────────────────────────────────────────── */
-.jv-mobile .jv-job-detail-top-actions .jv-button-primary {
-  width: 80%;
-  margin-inline: auto;
+/* ─── Mobile Buttons: Match Desktop ─────────────────────────── */
+.jv-mobile .jv-button-primary,
+.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply {
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: 10rem !important;
+  height: 2.75rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.5rem 1rem !important;
+  margin: 0 !important;
+  background-color: #A6145E !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 0.25rem !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
 }
 
-.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply {
-  padding: 1rem 2.5rem !important;
-  font-size: 1rem;
-  font-weight: 600;
-  margin-right: 3.6rem;
+.jv-mobile .jv-button-primary:hover,
+.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply:hover {
+  background-color: #8B1050 !important;
+  color: #fff !important;
+}
+
+.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply-later {
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: 10rem !important;
+  height: 2.75rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.5rem 1rem !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0.125rem solid #A6145E !important;
+  border-radius: 0.25rem !important;
+  box-shadow: none !important;
+  color: #A6145E !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+}
+
+.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply-later:hover {
+  background-color: #A6145E !important;
+  color: #fff !important;
+}
+
+.jv-mobile .jv-job-detail-bottom-actions {
+  display: flex !important;
+  gap: 0.5rem !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
 }
 
 /* ─── Forms ──────────────────────────────────────────────────── */
-.jv-mobile .jv-form-field-icon {
-  display: none !important;
-}
-
 .jv-mobile .jv-job-alert-pane form p {
   line-height: 2.8rem;
   margin-left: 1.6rem;
@@ -431,7 +450,6 @@
   line-height: 1.6;
 }
 
-
 /* ─── Mobile Link Colors ────────────────────────────────────── */
 .jv-mobile a {
   color: #1C3C83 !important;
@@ -443,107 +461,9 @@
   text-decoration: none !important;
 }
 
-/* Keep nav/tab links white */
 .jv-mobile .jv-nav a.jv-nav-link,
 .jv-mobile a.jv-tab {
   color: #fff !important;
-}
-
-/* ─── Ensure JV Logo Is Visible ─────────────────────────────── */
-.jv-mobile .jv-logo {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  color: #1C3C83 !important;
-}
-
-.jv-mobile .jv-page-header h1 {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  color: #1C3C83 !important;
-  font-size: 1.8rem !important;
-  line-height: 1.2 !important;
-  width: auto !important;
-  height: auto !important;
-  background: none !important;
-}
-
-.jv-mobile .jv-page-header h1 a {
-  display: inline-block !important;
-  color: #1C3C83 !important;
-}
-
-/* ─── Mobile Buttons: Match Desktop ─────────────────────────── */
-.jv-mobile .jv-button-primary,
-.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply {
-  display: inline-flex !important;
-  width: auto !important;
-  min-width: 10rem !important;
-  height: 2.75rem !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  padding: 0.5rem 1rem !important;
-  margin: 0 !important;
-
-  background-color: #A6145E !important;
-  background-image: none !important;
-  border: none !important;
-  border-radius: 0.25rem !important;
-  box-shadow: none !important;
-
-  color: #fff !important;
-  font-size: 0.875rem !important;
-  font-weight: 400 !important;
-  line-height: 1.2 !important;
-  text-decoration: none !important;
-  text-transform: uppercase !important;
-}
-
-.jv-mobile .jv-button-primary:hover,
-.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply:hover {
-  background-color: #8B1050 !important;
-  color: #fff !important;
-}
-
-/* Apply Later Button */
-.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply-later {
-  display: inline-flex !important;
-  width: auto !important;
-  min-width: 10rem !important;
-  height: 2.75rem !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  padding: 0.5rem 1rem !important;
-  margin: 0 !important;
-
-  background-color: transparent !important;
-  background-image: none !important;
-  border: 0.125rem solid #A6145E !important;
-  border-radius: 0.25rem !important;
-  box-shadow: none !important;
-
-  color: #A6145E !important;
-  font-size: 0.875rem !important;
-  font-weight: 400 !important;
-  line-height: 1.2 !important;
-  text-decoration: none !important;
-  text-transform: uppercase !important;
-}
-
-.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply-later:hover {
-  background-color: #A6145E !important;
-  color: #fff !important;
-}
-
-/* Button wrapper spacing */
-.jv-mobile .jv-job-detail-bottom-actions {
-  display: flex !important;
-  gap: 0.5rem !important;
-  align-items: center !important;
-  flex-wrap: wrap !important;
 }
 
 /* ─── Mobile Share Buttons ──────────────────────────────────── */
@@ -568,65 +488,4 @@
 .jv-mobile .jv-button-list .jv-button,
 .jv-mobile .jv-button-list .jv-button-list-item {
   padding: 0 !important;
-}
-
-
-/* ─── Mobile H1 / Header Fix ───────────────────────────────── */
-.jv-mobile h1,
-.jv-mobile h2.jv-header {
-  font-weight: 600 !important;   /* ✅ medium weight */
-  line-height: 1 !important;     /* ✅ 100% line height */
-}
-
-
-/* ─── Mobile Header Logo Size ───────────────────────────────── */
-.jv-mobile .jv-page-header h1 {
-  font-size: 1.25rem !important;
-  line-height: 1 !important;
-  font-weight: 600 !important;
-  width: auto !important;
-  height: auto !important;
-}
-
-.jv-mobile .jv-page-header h1 a {
-  font-size: inherit !important;
-  line-height: inherit !important;
-  font-weight: inherit !important;
-}
-
-/* ─── Mobile Hamburger Fix ─────────────────────────────────── */
-.jv-mobile .jv-nav-open-link {
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-
-  width: 2.5rem !important;   /* ✅ exact width */
-  height: 3.5rem !important;  /* ✅ exact height */
-
-  background-color: #A6145E !important;
-  border-radius: 0.25rem !important;
-  padding: 0 !important;
-
-  color: #fff !important;
-  font-size: 0 !important; /* hide text */
-}
-
-/* Center the icon inside */
-.jv-mobile .jv-nav-open-link::before {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-  height: 100%;
-
-  font-size: 1.25rem !important; /* tweak if needed */
-  line-height: 1 !important;
-  margin: 0 !important;
-  color: #fff !important;
 }
