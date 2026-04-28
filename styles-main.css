@@ -175,3 +175,11 @@ fieldset.jv-input-group legend.jv-form-field-legend {
   border: none !important;
   box-shadow: none !important;
 }
+
+.jv-button-list {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
