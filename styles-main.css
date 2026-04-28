@@ -165,3 +165,13 @@ fieldset.jv-input-group legend.jv-form-field-legend {
   color: #1A1F2B !important;
   font-size: 0.875rem !important;
 }
+
+
+/* Target both wrapper + actual button */
+.jv-button-list .jv-button-list-item,
+.jv-button-list .jv-button {
+  background: none !important;          /* kills gradient */
+  background-image: none !important;    /* double kill */
+  border: none !important;
+  box-shadow: none !important;
+}
