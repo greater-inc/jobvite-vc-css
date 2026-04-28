@@ -11,14 +11,11 @@
 .jv-mobile h5,
 .jv-mobile h6,
 .jv-mobile li,
-.jv-mobile a,
 .jv-mobile label,
-.jv-mobile span,
 .jv-mobile input,
 .jv-mobile textarea,
 .jv-mobile select,
-.jv-mobile option,
-.jv-mobile button {
+.jv-mobile option {
   font-family: 'Poppins', Arial, sans-serif !important;
 }
 
