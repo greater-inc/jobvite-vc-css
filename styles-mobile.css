@@ -580,3 +580,46 @@
   font-weight: 600 !important;   /* ✅ medium weight */
   line-height: 1 !important;     /* ✅ 100% line height */
 }
+
+
+/* ─── Mobile Header Logo Size ───────────────────────────────── */
+.jv-mobile .jv-page-header h1 {
+  font-size: 1.25rem !important;
+  line-height: 1 !important;
+  font-weight: 600 !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.jv-mobile .jv-page-header h1 a {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  font-weight: inherit !important;
+}
+
+/* ─── Restore Hamburger Icon ────────────────────────────────── */
+.jv-mobile .jv-nav-open-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: #A6145E !important;
+  color: #fff !important;
+  min-width: 2.75rem !important;
+  height: 2.25rem !important;
+  padding: 0.35rem 0.6rem !important;
+}
+
+.jv-mobile .jv-nav-open-link:before {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #fff !important;
+  font-size: 1.1rem !important;
+  line-height: 1 !important;
+  margin: 0 !important;
+}
+
+/* Hide text label if only icon is needed */
+.jv-mobile .jv-nav-open-link {
+  font-size: 0 !important;
+}
