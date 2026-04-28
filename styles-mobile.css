@@ -537,3 +537,10 @@
 .jv-mobile .jv-job-detail-description em {
   font-family: 'Poppins', Arial, sans-serif !important;
 }
+
+
+/* ─── Remove Logo Gradient Overlay ─────────────────────────── */
+.jv-mobile .jv-logo::after {
+  display: none !important;
+  content: none !important;
+}
