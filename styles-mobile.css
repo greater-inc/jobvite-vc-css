@@ -594,58 +594,39 @@
   font-weight: inherit !important;
 }
 
-/* ─── Restore Hamburger Icon ────────────────────────────────── */
-.jv-mobile .jv-nav-open-link {
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  background-color: #A6145E !important;
-  color: #fff !important;
-  min-width: 2.75rem !important;
-  height: 2.25rem !important;
-  padding: 0.35rem 0.6rem !important;
-}
-
-.jv-mobile .jv-nav-open-link:before {
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  color: #fff !important;
-  font-size: 1.1rem !important;
-  line-height: 1 !important;
-  margin: 0 !important;
-}
-
-/* Hide text label if only icon is needed */
-.jv-mobile .jv-nav-open-link {
-  font-size: 0 !important;
-}
-
-
-/* ─── Mobile Header Spacing + Centering ─────────────────────── */
-.jv-mobile .jv-page-header {
-  padding: 0.75rem 1rem !important;   /* 🔥 more breathing room */
-  display: flex;
-  align-items: center;
-  justify-content: center;           /* centers logo */
-  position: relative;                /* allows absolute menu */
-}
-
-/* Center the logo text */
-.jv-mobile .jv-page-header h1 {
-  margin: 0 auto !important;
-  text-align: center !important;
-}
-
-/* Keep hamburger on the right */
+/* ─── Mobile Hamburger Fix ─────────────────────────────────── */
 .jv-mobile .jv-nav-open-link {
   position: absolute;
   right: 1rem;
   top: 50%;
   transform: translateY(-50%);
+
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.5rem !important;   /* ✅ exact width */
+  height: 3.5rem !important;  /* ✅ exact height */
+
+  background-color: #A6145E !important;
+  border-radius: 0.25rem !important;
+  padding: 0 !important;
+
+  color: #fff !important;
+  font-size: 0 !important; /* hide text */
 }
 
-/* Optional: give more top spacing from page */
-.jv-mobile .jv-wrapper {
-  padding-top: 0.5rem !important;
+/* Center the icon inside */
+.jv-mobile .jv-nav-open-link::before {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  font-size: 1.25rem !important; /* tweak if needed */
+  line-height: 1 !important;
+  margin: 0 !important;
+  color: #fff !important;
 }
