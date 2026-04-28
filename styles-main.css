@@ -112,7 +112,7 @@ h3.h2 {
 .jv-job-detail-bottom-actions .jv-button-apply {
   display: inline-flex;
   width: auto;
-  min-height: 3rem;
+  height: 2.75rem;
   min-width: 10rem;
   align-items: center;
   justify-content: center;
@@ -139,7 +139,7 @@ h3.h2 {
 .jv-job-detail-bottom-actions .jv-button-apply-later {
   display: inline-flex;
   min-width: 10rem;
-   min-height: 3rem;
+ height: 2.75rem;
   width: auto;
   align-items: center;
   justify-content: center;
