@@ -1,6 +1,35 @@
 /* ─── Google Fonts ───────────────────────────────────────────── */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+/* ─── Safe Mobile Typography ────────────────────────────────── */
+.jv-mobile,
+.jv-mobile p,
+.jv-mobile h1,
+.jv-mobile h2,
+.jv-mobile h3,
+.jv-mobile h4,
+.jv-mobile h5,
+.jv-mobile h6,
+.jv-mobile li,
+.jv-mobile a,
+.jv-mobile label,
+.jv-mobile span,
+.jv-mobile input,
+.jv-mobile textarea,
+.jv-mobile select,
+.jv-mobile option,
+.jv-mobile button {
+  font-family: 'Poppins', Arial, sans-serif !important;
+}
+
+/* ─── Image/Icon Rendering Safety ───────────────────────────── */
+.jv-mobile img,
+.jv-mobile svg {
+  max-width: 100%;
+  height: auto;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
 
 /* ─── Page Header ────────────────────────────────────────────── */
 .jv-mobile .jv-wrapper {
@@ -50,7 +79,6 @@
   margin-right: 0.4rem !important;
 }
 
-
 /* ─── Navigation ─────────────────────────────────────────────── */
 .jv-mobile .jv-nav {
   background-color: #1C3C83;
@@ -64,7 +92,6 @@
   color: #fff !important;
   font-weight: 600 !important;
   font-size: 1rem;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile .jv-nav a.jv-nav-link:hover {
@@ -76,7 +103,6 @@
 .jv-mobile .jv-search-form .jv-search-field {
   font-size: 1rem;
 }
-
 
 /* ─── Tabs ───────────────────────────────────────────────────── */
 .jv-mobile .jv-tab {
@@ -91,7 +117,6 @@
 .jv-mobile a.jv-tab {
   color: #fff !important;
   font-size: 1rem;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile a.jv-tab:hover {
@@ -102,7 +127,6 @@
 .jv-tab-active:before {
   border-top-color: #1C3C83 !important;
 }
-
 
 /* ─── Job Categories ─────────────────────────────────────────── */
 .jv-mobile ul.jv-tabs,
@@ -125,7 +149,6 @@
 .jv-mobile .jv-job-categories .jv-job-category-meta {
   font-size: 1rem;
   font-weight: 400;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile .jv-job-category-label:hover,
@@ -142,7 +165,6 @@
   color: #1A1F2B !important;
   font-size: 1rem;
   font-weight: 700;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-job-category-link .jv-list-icon {
@@ -154,8 +176,7 @@
   display: none;
 }
 
-
-/* ─── Job List Inner (expanded panel) ───────────────────────── */
+/* ─── Job List Inner ─────────────────────────────────────────── */
 .jv-job-list-inner {
   background: #1C3C83 !important;
   padding-right: 0 !important;
@@ -179,7 +200,6 @@
 .jv-job-item .jv-list-label,
 .jv-job-item .jv-meta {
   color: #1A1F2B;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-job-item .jv-list-label {
@@ -209,12 +229,10 @@
   margin-bottom: 1rem;
 }
 
-
 /* ─── Job Description ────────────────────────────────────────── */
 .jv-mobile h2.jv-header {
   font-size: 2.2rem !important;
   color: #1C3C83;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile .jv-header .jv-job-detail-location {
@@ -230,7 +248,6 @@
   margin-bottom: 3rem;
   color: #1A1F2B;
   font-weight: 500;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile .jv-job-detail-description h3 {
@@ -238,7 +255,6 @@
   font-weight: 600;
   color: #1C3C83;
   font-size: 1rem;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile .jv-job-detail-description p strong span {
@@ -259,9 +275,8 @@
 }
 
 .jv-mobile .jv-recommended-jobs .jv-job-item .jv-list-label {
-  padding-top: 0rem !important;
+  padding-top: 0 !important;
 }
-
 
 /* ─── Mobile Buttons ─────────────────────────────────────────── */
 .jv-mobile .jv-job-detail-top-actions .jv-button-primary {
@@ -269,13 +284,12 @@
   margin-inline: auto;
 }
 
-.jv-job-detail-bottom-actions .jv-button-apply {
+.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply {
   padding: 1rem 2.5rem !important;
   font-size: 1rem;
   font-weight: 600;
   margin-right: 3.6rem;
 }
-
 
 /* ─── Forms ──────────────────────────────────────────────────── */
 .jv-mobile .jv-form-field-icon {
@@ -286,13 +300,11 @@
   line-height: 2.8rem;
   margin-left: 1.6rem;
   padding: 2rem 0;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile .jv-job-alert-pane option {
   font-size: 1rem !important;
   color: #1A1F2B;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile .jv-form .jv-form-bg-icon {
@@ -301,7 +313,6 @@
 
 .jv-mobile .jv-job-alert-pane optgroup[label] {
   font-size: 1rem;
-  font-family: 'Poppins', Arial, sans-serif;
 }
 
 .jv-mobile .jv-job-alert-pane form p::before {
@@ -315,18 +326,11 @@
   max-width: 38rem;
 }
 
-.jv-mobile .jv-form .jv-form-field-label {
-  color: #1A1F2B !important;
-  font-size: 1rem !important;
-  font-family: 'Poppins', Arial, sans-serif !important;
-}
-
+.jv-mobile .jv-form .jv-form-field-label,
 .jv-mobile fieldset.jv-input-group legend.jv-form-field-legend {
   color: #1A1F2B !important;
   font-size: 1rem !important;
-  font-family: 'Poppins', Arial, sans-serif !important;
 }
-
 
 /* ─── Apply Form ─────────────────────────────────────────────── */
 .jv-mobile.jv-page-apply h2.jv-header {
@@ -360,9 +364,7 @@
 .jv-form .jv-form-field-select .jv-form-field-appearance label {
   color: #1A1F2B !important;
   font-size: 1rem !important;
-  font-family: 'Poppins', Arial, sans-serif !important;
 }
-
 
 /* ─── Confirmation Page ──────────────────────────────────────── */
 .jv-mobile .jv-page-applyconfirm h2.jv-header {
@@ -375,14 +377,12 @@
 }
 
 .jv-mobile .jv-page {
-  padding: 0rem 0rem !important;
+  padding: 0 !important;
   margin-inline: 0 !important;
 }
 
-
 /* ─── Footer ─────────────────────────────────────────────────── */
 .jv-footer {
-  font-family: 'Poppins', Arial, sans-serif;
   font-size: 1rem;
   color: #1A1F2B;
   padding: 2rem 1rem;
@@ -399,35 +399,21 @@
   color: #A6145E;
 }
 
-
-/* ─── Job List Pane ──────────────────────────────────────────── */
-.jv-job-list-pane {
-  font-family: 'Poppins', Arial, sans-serif;
-}
-
-
-/* ─── Apply Form ─────────────────────────────────────────────── */
-.jv-apply-form {
-  font-family: 'Poppins', Arial, sans-serif;
-  color: #1A1F2B;
-}
-
-
-/* ─── Select Group ───────────────────────────────────────────── */
+/* ─── Job List Pane / Apply Form / Select Group ──────────────── */
+.jv-job-list-pane,
+.jv-apply-form,
 .jv-select-group {
-  font-family: 'Poppins', Arial, sans-serif;
+  color: #1A1F2B;
 }
 
 .jv-select-group label {
   color: #1C3C83;
-  font-family: 'Poppins', Arial, sans-serif;
   font-size: 1rem;
   font-weight: 600;
 }
 
 .jv-select-group select {
   color: #1C3C83;
-  font-family: 'Poppins', Arial, sans-serif;
   font-size: 1rem;
   border: 1px solid #dde2f0;
   border-radius: 0.25rem;
@@ -441,11 +427,9 @@
   border-color: #1C3C83;
 }
 
-
 /* ─── Note ───────────────────────────────────────────────────── */
 .note {
   color: #1C3C83;
-  font-family: 'Poppins', Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
 }
