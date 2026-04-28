@@ -489,3 +489,34 @@
 .jv-mobile .jv-button-list .jv-button-list-item {
   padding: 0 !important;
 }
+
+
+/* ─── Clean Mobile Header (No Gradient + Smaller) ───────────── */
+
+/* Kill gradient / background effects */
+.jv-mobile .jv-page-header {
+  background: #ffffff !important;
+  background-image: none !important;
+  box-shadow: none !important;
+
+  padding: 0.5rem 1rem !important;  /* 👈 reduced height */
+  min-height: auto !important;
+}
+
+/* Reduce logo size */
+.jv-mobile .jv-page-header h1 {
+  font-size: 1.1rem !important;   /* 👈 smaller */
+  line-height: 1 !important;
+  margin: 0 !important;
+}
+
+/* Keep text clean */
+.jv-mobile .jv-page-header h1 a {
+  color: #1C3C83 !important;
+  text-decoration: none !important;
+}
+
+/* Optional: tighten spacing around header container */
+.jv-mobile .jv-wrapper {
+  padding-top: 0.25rem !important;
+}
