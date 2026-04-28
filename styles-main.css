@@ -112,6 +112,7 @@ h3.h2 {
 .jv-job-detail-bottom-actions .jv-button-apply {
   display: inline-flex;
   width: auto;
+  min-height: 3rem;
   min-width: 10rem;
   align-items: center;
   justify-content: center;
@@ -138,6 +139,7 @@ h3.h2 {
 .jv-job-detail-bottom-actions .jv-button-apply-later {
   display: inline-flex;
   min-width: 10rem;
+   min-height: 3rem;
   width: auto;
   align-items: center;
   justify-content: center;
@@ -180,6 +182,17 @@ fieldset.jv-input-group legend.jv-form-field-legend {
   background: none !important;
   background-color: transparent !important;
   background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+.jv-button,
+.jv-button-hollow,
+.jv-button-hollow:visited,
+.jv-button-list-item {
+  background-color: transparent !important;
+  background-image: none !important; /* 🔑 this removes gradient */
   border: none !important;
   box-shadow: none !important;
 }
