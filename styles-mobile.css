@@ -520,3 +520,20 @@
 .jv-mobile .jv-wrapper {
   padding-top: 0.25rem !important;
 }
+
+
+/* ─── Rich Text Typography (Job Description) ────────────────── */
+.jv-mobile .jv-job-detail-description,
+.jv-mobile .jv-job-detail-description h1,
+.jv-mobile .jv-job-detail-description h2,
+.jv-mobile .jv-job-detail-description h3,
+.jv-mobile .jv-job-detail-description h4,
+.jv-mobile .jv-job-detail-description h5,
+.jv-mobile .jv-job-detail-description h6,
+.jv-mobile .jv-job-detail-description p,
+.jv-mobile .jv-job-detail-description span,
+.jv-mobile .jv-job-detail-description li,
+.jv-mobile .jv-job-detail-description strong,
+.jv-mobile .jv-job-detail-description em {
+  font-family: 'Poppins', Arial, sans-serif !important;
+}
