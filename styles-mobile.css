@@ -572,3 +572,11 @@
 .jv-mobile .jv-button-list .jv-button-list-item {
   padding: 0 !important;
 }
+
+
+/* ─── Mobile H1 / Header Fix ───────────────────────────────── */
+.jv-mobile h1,
+.jv-mobile h2.jv-header {
+  font-weight: 600 !important;   /* ✅ medium weight */
+  line-height: 1 !important;     /* ✅ 100% line height */
+}
