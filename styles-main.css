@@ -1,3 +1,22 @@
+/* ─── Google Fonts ───────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* ─── Safe Typography ───────────────────────────────────────── */
+body.jv-desktop,
+body.jv-desktop p,
+body.jv-desktop h1,
+body.jv-desktop h2,
+body.jv-desktop h3,
+body.jv-desktop h4,
+body.jv-desktop h5,
+body.jv-desktop h6,
+body.jv-desktop li,
+body.jv-desktop a,
+body.jv-desktop label,
+body.jv-desktop span {
+  font-family: 'Poppins', Arial, sans-serif !important;
+}
+
 /* ─── Base Link ─────────────────────────────────────────────── */
 a {
   color: #475467;
