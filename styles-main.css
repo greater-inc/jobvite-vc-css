@@ -110,7 +110,9 @@ h3.h2 {
 /* ─── Primary Button ─────────────────────────────────────────── */
 .jv-button-primary,
 .jv-job-detail-bottom-actions .jv-button-apply {
-  display: flex;
+  display: inline-flex;
+  width: auto;
+  height: 3.5rem;
   align-items: center;
   justify-content: center;
   padding: 0.5rem 1rem !important;
