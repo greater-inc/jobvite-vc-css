@@ -108,27 +108,32 @@ h3.h2 {
 }
 
 /* ─── Primary Button ─────────────────────────────────────────── */
-.jv-button-primary,
+.jv-button.jv-button-primary,
 .jv-job-detail-bottom-actions .jv-button-apply {
-  display: inline-flex;
-  width: auto;
-  height: 2.75rem;
-  min-width: 10rem;
-  align-items: center;
-  justify-content: center;
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: 10rem !important;
+  height: 2.75rem !important;
+  align-items: center !important;
+  justify-content: center !important;
   padding: 0.5rem 1rem !important;
   background-color: #A6145E !important;
+  background-image: none !important;
   border: none !important;
   border-radius: 0.25rem !important;
+  box-shadow: none !important;
   color: #fff !important;
-  font-size: 0.875rem;
-  font-weight: 400;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
   text-decoration: none !important;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
+  text-indent: 0 !important;
+  overflow: visible !important;
   transition: background-color 0.2s;
 }
 
-.jv-button-primary:hover,
+.jv-button.jv-button-primary:hover,
 .jv-job-detail-bottom-actions .jv-button-apply:hover {
   background-color: #8B1050 !important;
   color: #fff !important;
@@ -137,21 +142,26 @@ h3.h2 {
 
 /* ─── Apply Later Button ─────────────────────────────────────── */
 .jv-job-detail-bottom-actions .jv-button-apply-later {
-  display: inline-flex;
-  min-width: 10rem;
- height: 2.75rem;
-  width: auto;
-  align-items: center;
-  justify-content: center;
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: 10rem !important;
+  height: 2.75rem !important;
+  align-items: center !important;
+  justify-content: center !important;
   padding: 0.5rem 1rem !important;
   background-color: transparent !important;
+  background-image: none !important;
   border: 0.125rem solid #A6145E !important;
   border-radius: 0.25rem !important;
+  box-shadow: none !important;
   color: #A6145E !important;
-  font-size: 0.875rem;
-  font-weight: 400;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
   text-decoration: none !important;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
+  text-indent: 0 !important;
+  overflow: visible !important;
   transition: all 0.2s;
 }
 
@@ -168,31 +178,27 @@ fieldset.jv-input-group legend.jv-form-field-legend {
   font-size: 0.875rem !important;
 }
 
-
-/* Target both wrapper + actual button */
+/* ─── Social Icon Buttons Only ───────────────────────────────── */
+.jv-button-list,
 .jv-button-list .jv-button-list-item,
-.jv-button-list .jv-button {
-  background: none !important;          /* kills gradient */
-  background-image: none !important;    /* double kill */
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.jv-button-list {
-  background: none !important;
+.jv-button-list .jv-button,
+.jv-button-list .jv-button-hollow,
+.jv-button-list .jv-button-hollow:visited {
+  background: transparent !important;
   background-color: transparent !important;
   background-image: none !important;
   border: none !important;
   box-shadow: none !important;
 }
 
+/* Optional: cleaner spacing for icons */
+.jv-button-list {
+  display: flex !important;
+  gap: 0.5rem !important;
+  align-items: center !important;
+}
 
-.jv-button,
-.jv-button-hollow,
-.jv-button-hollow:visited,
-.jv-button-list-item {
-  background-color: transparent !important;
-  background-image: none !important; /* 🔑 this removes gradient */
-  border: none !important;
-  box-shadow: none !important;
+.jv-button-list .jv-button,
+.jv-button-list .jv-button-list-item {
+  padding: 0 !important;
 }
