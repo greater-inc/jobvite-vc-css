@@ -620,3 +620,32 @@
 .jv-mobile .jv-nav-open-link {
   font-size: 0 !important;
 }
+
+
+/* ─── Mobile Header Spacing + Centering ─────────────────────── */
+.jv-mobile .jv-page-header {
+  padding: 0.75rem 1rem !important;   /* 🔥 more breathing room */
+  display: flex;
+  align-items: center;
+  justify-content: center;           /* centers logo */
+  position: relative;                /* allows absolute menu */
+}
+
+/* Center the logo text */
+.jv-mobile .jv-page-header h1 {
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+/* Keep hamburger on the right */
+.jv-mobile .jv-nav-open-link {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Optional: give more top spacing from page */
+.jv-mobile .jv-wrapper {
+  padding-top: 0.5rem !important;
+}
