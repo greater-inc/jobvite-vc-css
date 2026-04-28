@@ -433,3 +433,142 @@
   font-size: 1rem;
   line-height: 1.6;
 }
+
+
+/* ─── Mobile Link Colors ────────────────────────────────────── */
+.jv-mobile a {
+  color: #1C3C83 !important;
+  text-decoration: none !important;
+}
+
+.jv-mobile a:hover {
+  color: #A6145E !important;
+  text-decoration: none !important;
+}
+
+/* Keep nav/tab links white */
+.jv-mobile .jv-nav a.jv-nav-link,
+.jv-mobile a.jv-tab {
+  color: #fff !important;
+}
+
+/* ─── Ensure JV Logo Is Visible ─────────────────────────────── */
+.jv-mobile .jv-logo {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #1C3C83 !important;
+}
+
+.jv-mobile .jv-page-header h1 {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #1C3C83 !important;
+  font-size: 1.8rem !important;
+  line-height: 1.2 !important;
+  width: auto !important;
+  height: auto !important;
+  background: none !important;
+}
+
+.jv-mobile .jv-page-header h1 a {
+  display: inline-block !important;
+  color: #1C3C83 !important;
+}
+
+/* ─── Mobile Buttons: Match Desktop ─────────────────────────── */
+.jv-mobile .jv-button-primary,
+.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply {
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: 10rem !important;
+  height: 2.75rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  padding: 0.5rem 1rem !important;
+  margin: 0 !important;
+
+  background-color: #A6145E !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 0.25rem !important;
+  box-shadow: none !important;
+
+  color: #fff !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+}
+
+.jv-mobile .jv-button-primary:hover,
+.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply:hover {
+  background-color: #8B1050 !important;
+  color: #fff !important;
+}
+
+/* Apply Later Button */
+.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply-later {
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: 10rem !important;
+  height: 2.75rem !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  padding: 0.5rem 1rem !important;
+  margin: 0 !important;
+
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 0.125rem solid #A6145E !important;
+  border-radius: 0.25rem !important;
+  box-shadow: none !important;
+
+  color: #A6145E !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+}
+
+.jv-mobile .jv-job-detail-bottom-actions .jv-button-apply-later:hover {
+  background-color: #A6145E !important;
+  color: #fff !important;
+}
+
+/* Button wrapper spacing */
+.jv-mobile .jv-job-detail-bottom-actions {
+  display: flex !important;
+  gap: 0.5rem !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+/* ─── Mobile Share Buttons ──────────────────────────────────── */
+.jv-mobile .jv-button-list,
+.jv-mobile .jv-button-list .jv-button-list-item,
+.jv-mobile .jv-button-list .jv-button,
+.jv-mobile .jv-button-list .jv-button-hollow,
+.jv-mobile .jv-button-list .jv-button-hollow:visited {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.jv-mobile .jv-button-list {
+  display: flex !important;
+  gap: 0.5rem !important;
+  align-items: center !important;
+}
+
+.jv-mobile .jv-button-list .jv-button,
+.jv-mobile .jv-button-list .jv-button-list-item {
+  padding: 0 !important;
+}
