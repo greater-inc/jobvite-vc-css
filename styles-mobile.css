@@ -499,7 +499,7 @@
   background-image: none !important;
   box-shadow: none !important;
 
-  padding: 0.5rem 1rem !important;  /* 👈 reduced height */
+  padding: 1rem 1rem !important;  /* 👈 reduced height */
   min-height: auto !important;
 }
 
