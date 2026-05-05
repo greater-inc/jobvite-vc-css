@@ -549,3 +549,8 @@
 .jv-mobile label.jv-form-field-icon::before {
   display: none !important;
 }
+
+.jv-mobile .jv-job-alert-pane form p {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+}
