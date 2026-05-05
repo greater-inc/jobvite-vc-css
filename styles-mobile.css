@@ -544,3 +544,8 @@
   display: none !important;
   content: none !important;
 }
+/* ─── Hide Form Field Icons ──────────────────────────────────── */
+.jv-mobile label.jv-search-icon::before,
+.jv-mobile label.jv-form-field-icon::before {
+  display: none !important;
+}
