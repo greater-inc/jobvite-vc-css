@@ -551,6 +551,9 @@
 }
 
 .jv-mobile .jv-job-alert-pane form p {
+  margin-left: 1.6rem;
+  line-height: 1.25 !important;
   font-size: 1.25rem !important;
   font-weight: 600 !important;
+  color: #1C3C83 !important;
 }
