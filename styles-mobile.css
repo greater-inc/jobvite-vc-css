@@ -39,7 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: unset !important;
+  min-height: 5rem !important;
 }
 
 /* ─── Navigation ─────────────────────────────────────────────── */
