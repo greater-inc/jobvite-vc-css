@@ -203,6 +203,6 @@ fieldset.jv-input-group legend.jv-form-field-legend {
   padding: 0 !important;
 }
 
-button.jv-button.jv-button-primary.ng-hide {
-    display: none !important;
+.jv-jua-button-wrapper .jv-button.ng-hide {
+  display: none !important;
 }
