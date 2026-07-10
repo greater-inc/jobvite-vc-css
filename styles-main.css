@@ -203,6 +203,9 @@ fieldset.jv-input-group legend.jv-form-field-legend {
   padding: 0 !important;
 }
 
-.jv-jua-button-wrapper .jv-button.ng-hide {
+/* ─── Re-assert Angular visibility toggling ──────────────────── */
+.jv-wrapper .ng-hide:not(.ng-hide-animate),
+.jv-button.ng-hide,
+.jv-button-list-item.ng-hide {
   display: none !important;
 }
