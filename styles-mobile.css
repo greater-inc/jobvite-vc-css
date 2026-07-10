@@ -558,3 +558,11 @@
   font-weight: 600 !important;
   color: #1C3C83 !important;
 }
+
+/* ─── Re-assert Angular visibility toggling ──────────────────── */
+.jv-mobile .ng-hide:not(.ng-hide-animate),
+.jv-mobile .jv-button.ng-hide,
+.jv-mobile .jv-button-primary.ng-hide,
+.jv-mobile .jv-button-list-item.ng-hide {
+  display: none !important;
+}
